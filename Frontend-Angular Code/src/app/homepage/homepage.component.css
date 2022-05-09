@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Libre+Baskerville:ital@1&family=Ms+Madi&family=Oswald:wght@200&family=Rubik+Moonrocks&family=Updock&family=Whisper&display=swap');
+
+#toptext{
+    background-color: rgb(126, 3, 83);
+    color: rgb(149, 145, 73);
+}
+
+#toptext p{
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    text-align: center;
+}

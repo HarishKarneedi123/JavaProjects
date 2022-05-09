@@ -1,0 +1,17 @@
+<app-uheader></app-uheader>
+  <div class="container">
+    <div class="jumbotron my-5">
+        <h1 class="display-4 text-primary text-center">User Profile</h1><hr>
+        <div class="text-center my-3">
+            <h3 >Name : {{ supData.firstname }} {{ supData.lastname }}</h3>
+            <h3 >Email : {{ supData.email }}</h3>
+            <h3 >Phone : {{ supData.phone }}</h3>
+            <h3 >Address : {{ supData.address }}</h3>
+            <br>
+            <button class="btn btn-primary btn-lg" (click)="edituprof(supData.id)">Update Profile</button>
+        </div>
+
+      </div>
+  </div>
+<br><br><br><br><br><br><br><br>
+  <app-ufooter></app-ufooter>
